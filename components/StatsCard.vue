@@ -21,7 +21,7 @@
             <div class="text-center headline">80787</div>
           </v-card>
           <v-card 
-            class="moreInfo white--text" color="#cc8e3">
+            class="moreInfo white--text" color="#cc8e35">
             <div class="text-center body-2 mb-2">Critical</div>
             <div class="text-center headline">5678</div>
           </v-card>
