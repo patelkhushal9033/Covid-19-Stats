@@ -18,7 +18,7 @@
           <v-card 
             class="moreInfo" color="#cd6133">
             <div class="text-center body-2 mb-2">Active</div>
-            <div class="text-center headline">8067</div>
+            <div class="text-center headline">80787</div>
           </v-card>
           <v-card 
             class="moreInfo">
