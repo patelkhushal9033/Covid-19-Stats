@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center subtitle-2">Area Chart<apexchart type="area" width="100%" :options="options" :series="series"></apexchart></div>
+    <div class="chart text-center subtitle-2">Area Chart<apexchart type="area" height="300" width="100%" :options="options" :series="series"></apexchart></div>
 </template>
 
 

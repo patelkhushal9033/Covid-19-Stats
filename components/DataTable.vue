@@ -5,27 +5,27 @@
             <v-card
                 flat
                 class="moreInfo country" width="25%">
-                <div class="text-left body-2 font-weight-bold">Country</div>
+                <div class="text-left font-weight-bold">Country</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo case" width="20%">
-                <div class="text-right body-2 font-weight-bold">C</div>
+                <div class="text-right font-weight-bold">C</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo death" width="17%">
-                <div class="text-right body-2 font-weight-bold">D</div>
+                <div class="text-right font-weight-bold">D</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo recovered" width="19%">
-                <div class="text-right body-2 font-weight-bold">R</div>
+                <div class="text-right font-weight-bold">R</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo active" width="19%">
-                <div class="text-right body-2 font-weight-bold">A</div>
+                <div class="text-right font-weight-bold">A</div>
             </v-card>
         </v-flex>
         <v-flex class="sty"
@@ -35,27 +35,27 @@
             <v-card
                 flat
                 class="moreInfo" width="25%">
-                <div class="text-left caption">{{tableData.country}}</div>
+                <div class="text-left">{{tableData.country}}</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo" width="20%">
-                <div class="text-right caption">{{ tableData.cases }}</div>
+                <div class="text-right">{{ tableData.cases }}</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo" width="17%">
-                <div class="text-right caption">{{ tableData.deaths }}</div>
+                <div class="text-right">{{ tableData.deaths }}</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo" width="19%">
-                <div class="text-right caption">{{ tableData.recovered }}</div>
+                <div class="text-right">{{ tableData.recovered }}</div>
             </v-card>
             <v-card 
                 flat
                 class="moreInfo" width="19%">
-                <div class="text-right caption">{{tableData.active }}</div>
+                <div class="text-right">{{tableData.active }}</div>
             </v-card>
         </v-flex>
     </v-flex>
@@ -69,14 +69,14 @@ export default {
         return {
             tableData: [
                 {
-                    country: 'North America',
-                    cases: '1234567',
-                    todayCases: '23',
-                    deaths: '12345',
-                    todayDeaths: '3',
-                    recovered: '145629',
-                    active: '836290',
-                    critical: '32'
+                    country: '',
+                    cases: '',
+                    todayCases: '',
+                    deaths: '',
+                    todayDeaths: '',
+                    recovered: '',
+                    active: '',
+                    critical: ''
                 }
             ]
         }
@@ -94,6 +94,7 @@ export default {
   background-color: #F5F7FB;
   border-bottom: #E6E6F6 1px solid;
   color: #575757;
+font-size: 12px;
 
 }
 
@@ -131,6 +132,12 @@ export default {
 
 .active {
     color: #cd6133;
+}
+
+@media only screen and (min-width: 600px) {
+  .moreInfo {
+    font-size: 14px;
+  }
 }
 </style>
 

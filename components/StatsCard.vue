@@ -50,4 +50,11 @@ export default {
   display: none;
 }
 
+@media only screen and (min-width: 700px) {
+  .moreInfo {
+    min-width: 22%;
+    margin-right: 4%;
+  }
+}
+
 </style>

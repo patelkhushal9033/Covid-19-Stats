@@ -1,8 +1,7 @@
 <template>
-  <v-app>
+  <v-app class="appContainer">
     <v-content>
       <v-container
-        ma-0
         pa-0>
         <v-app-bar 
           flat
@@ -27,3 +26,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.appContainer {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+</style>

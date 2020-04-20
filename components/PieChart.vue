@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center subtitle-2">Pie Chart<apexchart class="my-6" type="donut" width="100%" :options="chartOptions" :series="donutSeries"></apexchart></div>
+    <div class="text-center subtitle-2">Pie Chart<apexchart class="my-6" type="donut" height="300" width="100%" :options="chartOptions" :series="donutSeries"></apexchart></div>
 </template>
 
 <script>
