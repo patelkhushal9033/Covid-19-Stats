@@ -10,8 +10,11 @@
       <v-col class="infoBlocks">
         <StatsCard/>
       </v-col>
-      <v-col> 
+      <v-col class="infoBlocks"> 
         <LineChart/>
+      </v-col>
+      <v-col> 
+        <PieChart/>
       </v-col>
       <v-col class="infoBlocks"> 
         <DataTable/>
@@ -22,12 +25,14 @@
 
 <script>
 import LineChart from '~/components/LineChart.vue'
+import PieChart from '~/components/PieChart.vue'
 import StatsCard from '~/components/StatsCard.vue'
 import DataTable from '~/components/DataTable.vue'
 
 export default {
   components: {
     LineChart,
+    PieChart,
     StatsCard,
     DataTable
   },

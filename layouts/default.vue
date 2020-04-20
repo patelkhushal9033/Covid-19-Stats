@@ -7,9 +7,9 @@
         <v-app-bar 
           flat
           dense
-          color="#ffffff">
+          color="#FCFBFE">
           <v-spacer/>
-          <span class="subtitle-2 font-weight-bold">{{title}}</span>
+          <span class="subtitle-2">{{title}}</span>
           <v-spacer/>
         </v-app-bar>
         <nuxt />
@@ -22,7 +22,7 @@
 export default {
   data () {
     return {
-      title: 'Covid-19'
+      title: 'Covid 19 - We Are All In This Together'
     }
   }
 }

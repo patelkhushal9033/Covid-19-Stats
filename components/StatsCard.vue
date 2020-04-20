@@ -1,6 +1,5 @@
 <template>
-    <v-flex class="cardContainer">
-     <div class="subtitle-1 font-weight-medium mb-7">More stats</div>
+    <v-flex>
         <div 
           class="statsCard"
           style="display: flex; overflow-x: auto">
@@ -41,7 +40,7 @@ export default {
 .moreInfo {
   padding: 2%;
   margin-right: 5%;
-  min-width: 130px;
+  min-width: 43%;
   background-color: #cc8e35;
   border-radius: 12px !important;
   color: white;
